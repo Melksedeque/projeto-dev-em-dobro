@@ -79,7 +79,7 @@ ul.botoes .botao {
     border-radius: 50%;
     border: none;
     cursor: pointer;
-    transition: all .25s ease;
+    transition: transform .25s ease, box-shadow .25s ease-in .25s;
 }
 
 ul.botoes .botao img {
@@ -87,6 +87,6 @@ ul.botoes .botao img {
 }
 
 ul.botoes .botao.selecionado, ul.botoes .botao:hover {
-    box-shadow: 0 0 10px #D9D9D9;
+    box-shadow: 0 0 15px #D9D9D9;
     transform: scale(1.2);
 }
