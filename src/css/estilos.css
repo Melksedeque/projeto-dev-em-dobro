@@ -16,7 +16,6 @@ main::after {
 main .personagem {
     display: none;
     height: 100vh;
-    transition: all .25s ease;
 }
 
 main .personagem .imagem {
